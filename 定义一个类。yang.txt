@@ -1,0 +1,14 @@
+class phone:
+       ""定义一部手机“”
+      def  ___init___(self,name,color,slogan)
+           self.name=name
+           self.color=color
+           self.slogan=slogan
+    def __str__(self)
+        return "品牌是%s , 颜色是%s , 口号是%s " %(self.name , self.color , self.slogan)
+
+
+  if __name__='__main__':
+       
+     MEIZU=phone('魅族', '汝窑白' , '雕刻时光 重塑经典')
+     print(MEIZU)
