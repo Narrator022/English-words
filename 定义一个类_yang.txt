@@ -10,5 +10,5 @@ class phone:
 
   if __name__='__main__':
        
-     MEIZU=phone('魅族', '汝窑白' , '雕刻时光 重塑经典')
+     MEIZU=phone('魅族15', '汝窑白' , '雕刻时光 重塑经典')
      print(MEIZU)
